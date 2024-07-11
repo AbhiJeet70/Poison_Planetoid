@@ -4,13 +4,12 @@ This repository contains code for conducting experiments on the Planetoid datase
 
 
 ## Code Structure
-```bash
-main.py: Main script for running the experiments.
-data_utils.py: Utility functions for loading and processing data.
-models.py: Definition of the GCN model.
-train_eval.py: Functions for training and evaluating the model.
-perturbation_utils.py: Functions for applying edge perturbations.
-```
+
+- `main.py`: Main script to run the model training, perturbations, and evaluation.
+- `model.py`: Contains the definition of the GCN model.
+- `utils.py`: Utility functions for data loading, splitting, perturbations, and plotting.
+- `README.md`: This file, containing information about the project and instructions to run the code.
+
 
 ## Installation
 
